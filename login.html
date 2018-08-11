@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Comments page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 
+        linking the style sheet from style.css file 
+        -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--
+        html code for form
+        -->
+        <form id="login" action="login.php" method="post">
+            <!-- name field -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <!-- E-mail field -->
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="text" id="mail" name="user_mail">
+            </div>
+            <!-- text area -->
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <!-- login button -->
+            <div>
+                <button type="submit">send your message</button>
+            </div>
+        </form>
+    </body>
+</html>
